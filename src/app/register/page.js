@@ -184,14 +184,9 @@ password-toggler`}
           <div className="invalid-feedback">{errors.confirmPassword}</div>
         </div>
         <div className="register-btn-container">
-          <Link href="/login">
-            <button
-              type="submit"
-              className="btn btn-primary w-100 register-btn"
-            >
-              Register
-            </button>
-          </Link>
+          <button type="submit" className="btn btn-primary w-100 register-btn">
+            Register
+          </button>
         </div>
       </form>
     </div>

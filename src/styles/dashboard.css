@@ -1,5 +1,6 @@
 body {
   background-color: rgb(31, 31, 31);
+  background: url(sagegreen.webp) no-repeat;
   color: var(--foreground, #ffffff);
   font-family: "Roboto", sans-serif;
 }

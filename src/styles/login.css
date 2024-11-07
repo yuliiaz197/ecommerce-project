@@ -1,17 +1,17 @@
 .wrapper {
-    width: 420px;
-    background: transparent;
-    color: white;
-    border-radius: 25px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #7B8D6A;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 50px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+  width: 420px;
+  background: transparent;
+  color: white;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7b8d6a;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper h1 {
@@ -31,16 +31,16 @@
 
 /* Other styles */
 .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin-top: 0px;
-    margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .forgotlink {
-    color: white;
-    margin-right: 0px;
+  color: white;
+  margin-right: 0px;
 }
 
 .forgotlink:hover {
@@ -48,26 +48,23 @@
 }
 
 .login-btn-container {
-    margin-top: 10px;
-    position: relative;
+  margin-top: 10px;
+  position: relative;
 }
 
 .register-link-container {
-    margin-top: 10px;
-    position: relative;
+  margin-top: 10px;
+  position: relative;
 }
 
 .register-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .register-link a {
-    color:rgb(114, 241, 163);
-    text-decoration: none;
-    font-weight: 500;
+  color: rgb(114, 241, 163);
+  text-decoration: none;
+  font-weight: 500;
 }
-
-
-
