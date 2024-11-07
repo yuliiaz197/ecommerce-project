@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(31, 31, 31);
+  color: var(--foreground, #ffffff);
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  height: 55px;
+  background-color: rgb(114, 241, 163);
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 1600px; /* Adjust to match main HTML */
+}
+
+.website-title {
+  margin-left: 20px;
+  font-size: 35px;
+  color: rgb(76, 109, 89);
+}
+
+.logout-button {
+  padding: 10px 30px;
+  background-color: rgb(114, 241, 163);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: var(--foreground, #ffffff);
+  cursor: pointer;
+  transition:
+    background-color 0.4s,
+    color 0.4s;
+}
+
+.logout-button:hover {
+  background-color: black;
+  color: rgb(114, 241, 163);
+  border-color: white;
+}
+
+.main-content {
+  padding-top: 80px;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dashboard-description {
+  font-size: 16px;
+  color: #cccccc;
+}

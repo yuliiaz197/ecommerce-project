@@ -1,0 +1,73 @@
+.wrapper {
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7B8D6A;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*.icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: var(--highlight, #7B8D6A);
+  font-size: 1.2em;
+}*/
+
+/* Other styles */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.forgotlink {
+    color: white;
+    margin-right: 0px;
+}
+
+.forgotlink:hover {
+  text-decoration: underline;
+}
+
+.login-btn-container {
+    margin-top: 10px;
+    position: relative;
+}
+
+.register-link-container {
+    margin-top: 10px;
+    position: relative;
+}
+
+.register-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-link a {
+    color:rgb(114, 241, 163);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
