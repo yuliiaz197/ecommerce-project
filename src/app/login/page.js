@@ -1,9 +1,9 @@
-"use client";
+'use client';
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 import "../../styles/globals.css";
 import "../../styles/login.css";
+import Link from "next/link";
 
 export default function Login() {
   const [formData, setFormData] = useState({
@@ -99,16 +99,18 @@ export default function Login() {
 
         <div className="remember-forgot">
           <label className="form-check-label">
-            <input type="checkbox" className="form-check-input" /> Remember me
+            <input type="checkbox" className="form-check-input"/> Remember me
           </label>
-          <a href="#" className="forgotlink">
-            Forgot Password?
-          </a>
+          <div className="forgot-link-container">
+            <Link href="/forgot-password" className="forgotlink">
+              Forgot Password?
+            </Link>
+          </div>
         </div>
 
         <div className="login-btn-container">
-          <button type="submit" className="btn btn-primary w-100 login-btn">
-            Login
+          <button type="submit" className="btn btn-primary w-100">
+          Login
           </button>
         </div>
 

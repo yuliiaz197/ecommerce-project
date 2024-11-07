@@ -1,13 +1,16 @@
 body {
+  background: none;
   background-color: rgb(31, 31, 31);
-  background: url(sagegreen.webp) no-repeat;
-  color: var(--foreground, #ffffff);
-  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: Roboto, serif;
+  font-weight: 500;
 }
 
 .header {
   height: 55px;
-  background-color: rgb(114, 241, 163);
+  background-color: rgb(31, 67, 41);
   display: flex;
   flex-direction: row;
 
@@ -23,48 +26,25 @@ body {
 
 .left-section {
   display: flex;
-  align-items: center;
   flex-direction: row;
-  width: 1600px; /* Adjust to match main HTML */
+  width: 1600px;
+  align-items: center;
 }
 
 .website-title {
   margin-left: 20px;
   font-size: 35px;
-  color: rgb(76, 109, 89);
-}
-
-.logout-button {
-  padding: 10px 30px;
-  background-color: rgb(114, 241, 163);
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: var(--foreground, #ffffff);
-  cursor: pointer;
-  transition:
-    background-color 0.4s,
-    color 0.4s;
-}
-
-.logout-button:hover {
-  background-color: black;
-  color: rgb(114, 241, 163);
-  border-color: white;
-}
-
-.main-content {
-  padding-top: 80px;
+  color: rgb(14, 135, 90);
 }
 
 .dashboard-title {
   font-size: 28px;
   font-weight: 700;
+  color: white;
   margin-bottom: 20px;
 }
 
-.dashboard-description {
+.home-description {
   font-size: 16px;
   color: #cccccc;
 }

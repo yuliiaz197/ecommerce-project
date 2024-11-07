@@ -4,13 +4,13 @@ body {
 }
 
 p {
-  font-family: Roboto;
+  font-family: Roboto, serif;
   font-weight: 500;
 }
 
 .header {
   height: 55px;
-  background-color: rgb(114, 241, 163);
+  background-color: rgb(31, 67, 41);
   display: flex;
   flex-direction: row;
 
@@ -34,34 +34,12 @@ p {
 .website-title {
   margin-left: 20px;
   font-size: 35px;
-  color: rgb(76, 109, 89);
+  color: rgb(14, 135, 90);
 }
 
 .login-section {
   display: flex;
   align-items: center;
-}
-
-.login-button {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: rgb(114, 241, 163);
-  border-radius: 20px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(0, 0, 0);
-  font-family: Roboto;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.login-button:hover {
-  background-color: black;
-  color: rgb(114, 241, 163);
-  transition: background-color 0.4s;
-  border-color: white;
 }
 
 .home-title {

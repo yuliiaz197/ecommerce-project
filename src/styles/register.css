@@ -6,10 +6,7 @@
   border-width: 1px;
   border-style: solid;
   border-color: #7b8d6a;
-  padding-bottom: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 50px;
+  padding: 50px 40px;
   backdrop-filter: blur(20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -26,9 +23,22 @@
   margin-bottom: -30px;
 }
 
-.register-btn-container {
+.register-btn-container,
+.login-link-container {
   margin-top: 10px;
   position: relative;
+}
+
+.login-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-link a {
+  color: rgb(114, 241, 163);
+  text-decoration: none;
+  font-weight: 500;
 }
 
 /*.modal-content {

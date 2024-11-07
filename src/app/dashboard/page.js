@@ -6,7 +6,11 @@ import "../../styles/dashboard.css";
 export default function Dashboard() {
   const router = useRouter();
 
-  // Handle logout
+  // Redirect if not authenticated
+  if (localStorage.getItem('isAuthenticated') !== 'true') {
+    router.push('/login');
+  }
+
   const handleLogout = () => {
     localStorage.removeItem('isAuthenticated');
     router.push('/login');
