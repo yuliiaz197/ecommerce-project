@@ -1,16 +1,12 @@
 'use client';
 import { useRouter } from 'next/navigation';
-import "../../styles/globals.css";
 import "../../styles/dashboard.css";
+import "../../styles/globals.css";
 
 export default function Dashboard() {
   const router = useRouter();
 
-  // Redirect if not authenticated
-  if (localStorage.getItem('isAuthenticated') !== 'true') {
-    router.push('/login');
-  }
-
+  // Handle logout
   const handleLogout = () => {
     localStorage.removeItem('isAuthenticated');
     router.push('/login');
@@ -38,5 +34,3 @@ export default function Dashboard() {
     </div>
   );
 }
-
-
